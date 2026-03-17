@@ -85,9 +85,38 @@ Generación de código funcional a partir de una descripción en lenguaje natura
   <ul>
     <li>La cafetería tiene 23 manzanas. Si usaron 20 para preparar un postre y compraron 6 más, ¿cuántas manzanas tienen ahora?</li>
     <li>Dame oraciones que terminen con la palabra "manzana" 
+    <li>Dame oraciones donde la palabra "manzana" esté en cuarto lugar
     <li>Dame diez oraciones, donde la palabra manzana esté en la primera posición en la primera oración, en la segunda posición en la segunda oración, en la tercera posición en la tercera oración y así sucesivamente hasta llegar a la décima oración
   </ul>
   </details>
-
-- Cervantes les puede
-
+- La familia no es lo suyo
+  <details>
+  <summary></summary>
+  <ul>
+    <li>En una habitación hay 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda)?
+    <li>En una habitación estamos solo 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda) y qué relación tiene conmigo?
+    <li>Anita tiene dos hermanos. Cada hermano tiene dos hermanas. ¿Cuántas hermanas tiene Anita?
+    <li>Alicia tiene 2 hermanas y también tiene 4 hermanos. ¿Cuántas hermanas tienen los hermanos de Alicia?
+  </ul>
+  </details>  
+- Los números como que no...
+  <details>
+  <summary></summary>
+  <ul>
+    <li>¿Cuál es el número entero más pequeño cuyo cuadrado está entre 15 y 30?
+  </ul>
+  </details>
+- ¿Serán de letras?
+  <details>
+  <summary></summary>
+  <ul>
+  <li>SACO es a ASCO lo que 7683 es a...
+    </ul>
+  </details>
+- Cervantes en particular -y la literatura en general- les puede
+  <details>
+  <summary></summary>
+  <ul>
+    <li>Escríbeme una frase que no contenga ninguna palabra que aparezca en "El Quijote"
+  </ul>
+  </details>
