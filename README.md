@@ -163,11 +163,12 @@ Esto es:
 
 |Técnica|miniDefinición|Ejemplo|
 |-|-|-|
+|[Sesgar (formalmente "Priming")](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/priming.md)|Preparar al modelo con contexto, rol o restricciones antes de la pregunta real.|"Actúa como profesor de física. Ahora dime: ¿dónde está la pelota?"|
 |Descomposición|Partir la tarea en subtareas verificables.|"Primero escribe la palabra letra por letra. Luego cuenta las R."|
-|[Few shots]()|Darle ejemplos resueltos antes de la pregunta real.|"Ejemplo: CASA→ASAC, MESA→ASEM. Ahora: SACO→ASCO, 7683→..."|
+|[Few shots](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/xShotPrompting.md)|Darle ejemplos resueltos antes de la pregunta real.|"Ejemplo: CASA→ASAC, MESA→ASEM. Ahora: SACO→ASCO, 7683→..."|
 |[Cadena de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/chainOfThought.md)|Forzar al modelo a razonar paso a paso antes de responder.|"Antes de responder, razona paso a paso."|
-|[Árbol de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)|Hacer que varios "expertos" debatan y se corrijan entre sí.|"Imagina que tres expertos responden. Cada uno escribe un paso, lo comparten, y si alguno ve un error, se retira."|
 |Autoverificación|Obligar al modelo a revisar su propia respuesta.|"Resuelve esto. Luego revisa tu respuesta buscando errores."|
+|[Árbol de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)|Hacer que varios "expertos" debatan y se corrijan entre sí.|"Imagina que tres expertos responden. Cada uno escribe un paso, lo comparten, y si alguno ve un error, se retira."|
 
 </div>
 
