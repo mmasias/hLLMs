@@ -126,13 +126,13 @@ Generación de código funcional a partir de una descripción en lenguaje natura
   <summary></summary>
   <ul>
     <li>Bob está en la sala de estar. Camina hacia la cocina, llevando una taza. Pone una pelota en la taza y lleva la taza al dormitorio. Voltea la taza boca abajo y luego camina hacia el jardín. Pone la taza en el jardín y luego camina hacia el garaje. ¿Dónde está la pelota?
-  </ul>    
+  </ul>
   </details>
 - ¿Y si les enseñamos fotos?
   <details>
   <summary></summary>
     <li><img src="https://raw.githubusercontent.com/mmasias/ai-prompts/main/documentos/imagenes/perritos.png">
-    <li> [Más imágenes](https://github.com/mmasias/ai-prompts/tree/main/documentos/imagenes/testVisuaLLM)
+    <li> <a href="https://github.com/mmasias/ai-prompts/tree/main/documentos/imagenes/testVisuaLLM">Más imágenes</a>
   </details>
 - ¿Se reconocen a sí mismas?
   <details>
@@ -140,9 +140,8 @@ Generación de código funcional a partir de una descripción en lenguaje natura
   <li> Generar una imagen
   <li> Preguntarle si es generada por AI o por un humano
   </details>
+
 > [Más ejemplos](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/diversosTest.md)
-
-
 
 ### ¿Qué hacer?
 
