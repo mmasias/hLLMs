@@ -149,18 +149,27 @@ Generación de código funcional a partir de una descripción en lenguaje natura
   <li> Preguntarle si es generada por AI o por un humano
   </details>
 
-> [Más ejemplos](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/diversosTest.md)
->
-> [Paper académico](https://arxiv.org/pdf/2602.06176)
+> [*Más ejemplos*](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/diversosTest.md)
 
 ### ¿Qué hacer?
 
 Tomemos uno de los ejemplos que fallaron y [una técnica](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)
 
+Esto es:
+
 #### Ingeniería de prompts
 
-- [Cadena de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/chainOfThought.md)
-- [Árbol de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)
+<div align=center>
+
+|Técnica|miniDefinición|Ejemplo|
+|-|-|-|
+|Descomposición|Partir la tarea en subtareas verificables.|"Primero escribe la palabra letra por letra. Luego cuenta las R."|
+|[Few shots]()|Darle ejemplos resueltos antes de la pregunta real.|"Ejemplo: CASA→ASAC, MESA→ASEM. Ahora: SACO→ASCO, 7683→..."|
+|[Cadena de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/chainOfThought.md)|Forzar al modelo a razonar paso a paso antes de responder.|"Antes de responder, razona paso a paso."|
+|[Árbol de pensamiento](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)|Hacer que varios "expertos" debatan y se corrijan entre sí.|"Imagina que tres expertos responden. Cada uno escribe un paso, lo comparten, y si alguno ve un error, se retira."|
+|Autoverificación|Obligar al modelo a revisar su propia respuesta.|"Resuelve esto. Luego revisa tu respuesta buscando errores."|
+
+</div>
 
 ## Y ahora, ¿qué?
 
@@ -193,10 +202,11 @@ Si quieren seguir explorando cosas de AI, el repo de [Pequeñas anécdotas sobre
 </tr>
 </table>
 
-
 </details>
 
-
+>  
+> **Leer**. Calidad más que cantidad: [Paper](https://arxiv.org/pdf/2602.06176)
+>  
 
 ## 2Think
 
