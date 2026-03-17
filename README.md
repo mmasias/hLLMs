@@ -40,7 +40,9 @@ Este taller busca evidenciar esa confianza ciega y reconstruirla sobre una base 
 
 ## ¿Cómo?
 
-### A ver qué pueden hacer
+### ¿Qué pueden hacer?
+
+¿Propuestas?
 
 <div align=center>
 
@@ -74,3 +76,6 @@ Generación de código funcional a partir de una descripción en lenguaje natura
 </table>
 
 </div>
+
+### ¿Qué más?
+
