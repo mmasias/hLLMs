@@ -46,107 +46,43 @@ Este taller busca evidenciar esa confianza ciega y reconstruirla sobre una base 
 
 <div align=center>
 
-<table>
-<tr><th>¿Pueden ver?</th><th>¿Y los idiomas?</th><th>¿Programación?</th></tr>
-<tr><td valign=top>
-<details>
-<summary></summary>
-
-[CdU de visión](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/visionGPT.md)
-
-Tareas que explotan la capacidad multimodal de los LLMs: reciben una imagen y generan texto a partir de ella (descripción, transcripción, análisis, sugerencias).
-</details>
-</td><td valign=top>
-<details>
-<summary></summary>
-
-[CdU de traducción](https://github.com/mmasias/u6-VII-traslation-project)
-
-Traducción de los diálogos [del remake de un videojuego clásico (Ultima VI)](https://ultima6.ultimacodex.com/the-ultima-6-remake/) al español, adaptando el registro lingüístico al personaje: un pirata habla como pirata del Siglo de Oro, un rey habla como monarca castellano — a partir del mismo código fuente.
-</details>
-</td><td valign=top>
-<details>
-<summary></summary>
-
-CdU de desarrollo
-
-Generación de código funcional a partir de una descripción en lenguaje natural.
-</details>
-</td></tr>
-</table>
+|¿Pueden ver?|¿Y los idiomas?|¿Programación?|
+|-|-|-|
+[CdU de visión](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/visionGPT.md)|[CdU de traducción](https://github.com/mmasias/u6-VII-traslation-project)|CdU de desarrollo
+Tareas que explotan la capacidad multimodal de los LLMs: reciben una imagen y generan texto a partir de ella (descripción, transcripción, análisis, sugerencias).|Traducción de los diálogos [del remake de un videojuego clásico (Ultima VI)](https://ultima6.ultimacodex.com/the-ultima-6-remake/) al español, adaptando el registro lingüístico al personaje: un pirata habla como pirata del Siglo de Oro, un rey habla como monarca castellano — a partir del mismo código fuente.|Generación de código funcional a partir de una descripción en lenguaje natural.
 
 </div>
 
 ### Pero... ¿pueden pensar?
 
 - ¿Son manazas con manzanas?
-  <details>
-  <summary></summary>
-  <ul>
-    <li>La cafetería tiene 23 manzanas. Si usaron 20 para preparar un postre y compraron 6 más, ¿cuántas manzanas tienen ahora?</li>
-    <li>Dame oraciones que terminen con la palabra "manzana" 
-    <li>Dame oraciones donde la palabra "manzana" esté en cuarto lugar
-    <li>Dame diez oraciones, donde la palabra manzana esté en la primera posición en la primera oración, en la segunda posición en la segunda oración, en la tercera posición en la tercera oración y así sucesivamente hasta llegar a la décima oración
-  </ul>
-  </details>
+  - *La cafetería tiene 23 manzanas. Si usaron 20 para preparar un postre y compraron 6 más, ¿cuántas manzanas tienen ahora?</li>*
+  - *Dame oraciones que terminen con la palabra "manzana"*
+  - *Dame oraciones donde la palabra "manzana" esté en cuarto lugar*
+  - *Dame diez oraciones, donde la palabra manzana esté en la primera posición en la primera oración, en la segunda posición en la segunda oración, en la tercera posición en la tercera oración y así sucesivamente hasta llegar a la décima oración*
 - La familia no es lo suyo
-  <details>
-  <summary></summary>
-  <ul>
-    <li>En una habitación hay 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda)? [🧾](https://chatgpt.com/share/6895e9cf-98f4-8002-bd8a-39de093981f6)
-    <li>En una habitación estamos solo 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda) y qué relación tiene conmigo?
-    <li>Anita tiene dos hermanos. Cada hermano tiene dos hermanas. ¿Cuántas hermanas tiene Anita?
-    <li>Alicia tiene 2 hermanas y también tiene 4 hermanos. ¿Cuántas hermanas tienen los hermanos de Alicia?
-  </ul>
-  </details>  
-- Los números como que no... Las letras, bueno...
-  <details>
-  <summary></summary>
-  <ul>
-    <li>¿Cuál es el número entero más pequeño cuyo cuadrado está entre 15 y 30? [🧾](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/acertijoMatem%C3%A1tico.md)
-    <li>¿Es 9.11 > 9.9?
-  </ul>
-  <ul>
-  <li>SACO es a ASCO lo que 7683 es a... [🧾](https://chatgpt.com/share/6895ed07-62a4-8002-a426-d9a321eb7e5f) [🧾](https://claude.ai/share/23b3b47a-c492-43a8-9b43-711350017ee0)
-    </ul>
-  </details>
+  - *En una habitación hay 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda)?* [🧾](https://chatgpt.com/share/6895e9cf-98f4-8002-bd8a-39de093981f6)
+  - *En una habitación estamos solo 3 hermanas: Anna está leyendo un libro. Alice está jugando una partida de ajedrez. ¿Qué está haciendo la tercera persona (llamada Amanda) y qué relación tiene conmigo?*
+  - *Anita tiene dos hermanos. Cada hermano tiene dos hermanas. ¿Cuántas hermanas tiene Anita?*
+  - *Alicia tiene 2 hermanas y también tiene 4 hermanos. ¿Cuántas hermanas tienen los hermanos de Alicia?*
+- Los números como que no... Y las letras, bueno...
+  - *¿Cuál es el número entero más pequeño cuyo cuadrado está entre 15 y 30?* [🧾](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/acertijoMatem%C3%A1tico.md)
+  - *¿Es 9.11 > 9.9?*
+  - *SACO es a ASCO lo que 7683 es a...* [🧾](https://chatgpt.com/share/6895ed07-62a4-8002-a426-d9a321eb7e5f) [🧾](https://claude.ai/share/23b3b47a-c492-43a8-9b43-711350017ee0)
 - Cervantes en particular -y la literatura en general- les puede
-  <details>
-  <summary></summary>
-  <ul>
-    <li>Escríbeme una frase que no contenga ninguna palabra que aparezca en "El Quijote"
-  </ul>
-  </details>
-- ¿Siguen instrucciones?
-  <details>
-  <summary></summary>
-  <ul>
-  <li>Escribe exactamente lo que te diga / murciélago al revés
-    </ul>
-  </details>
+  - *Escríbeme una frase que no contenga ninguna palabra que aparezca en "El Quijote"*
+- ¿Saben realmente seguir instrucciones?
+  - *Escribe exactamente lo que te diga / murciélago al revés*
 - La física no viene de serie
-  <details>
-  <summary></summary>
-  <ul>
-    <li>Ana pone una pelota en una caja sin tapa. Lleva la caja del garaje a la cocina. En la cocina, le pone una tapa a la caja. La voltea boca abajo. Quita la caja y con cuidado lleva la tapa al jardín. ¿Dónde está la pelota?
-  </ul>
-  </details>
+  - *Ana pone una pelota en una caja sin tapa. Lleva la caja del garaje a la cocina. En la cocina, le pone una tapa a la caja. La voltea boca abajo. Quita la caja y con cuidado lleva la tapa al jardín. ¿Dónde está la pelota?*
 - ¿Y si les enseñamos fotos?
-  <details>
-  <summary></summary>
-    <li><img src="https://raw.githubusercontent.com/mmasias/ai-prompts/main/documentos/imagenes/perritos.png">
-    <li> <a href="https://github.com/mmasias/ai-prompts/tree/main/documentos/imagenes/testVisuaLLM">Más imágenes</a>
-  </details>
-- ¿Qué tal dibujan?
-  <details>
-  <summary></summary>
-  <li> Dibuja la esfera de un reloj, coloca los números y marca las manecillas a las nueve y diez.
-  </details>
+  - *[Una, por ejemplo](https://raw.githubusercontent.com/mmasias/ai-prompts/main/documentos/imagenes/perritos.png)*
+  - *[¡Más!](https://github.com/mmasias/ai-prompts/tree/main/documentos/imagenes/testVisuaLLM)*
+- ¿Y qué tal dibujan?
+  - *Dibuja la esfera de un reloj, coloca los números y marca las manecillas a las nueve y diez.*
 - ¿Se reconocen a sí mismas?
-  <details>
-  <summary></summary>
-  <li> Generar una imagen
-  <li> Preguntarle si es generada por AI o por un humano
+  - *Generar una imagen*
+  - *Preguntarle si es generada por AI o por un humano*
   </details>
 
 > [*Más ejemplos*](https://github.com/mmasias/ai-prompts/blob/main/documentos/casosDeUso/diversosTest.md)
@@ -155,7 +91,7 @@ Generación de código funcional a partir de una descripción en lenguaje natura
 
 Tomemos uno de los ejemplos que fallaron y [una técnica](https://github.com/mmasias/ai-prompts/blob/main/documentos/ingenieriaDePrompts/arbolPensamiento.md)
 
-Esto es:
+Esto se conoce como:
 
 #### Ingeniería de prompts
 
@@ -176,14 +112,13 @@ Esto es:
 
 Si quieren seguir explorando cosas de AI, el repo de [Pequeñas anécdotas sobre los LLMs](https://github.com/mmasias/ai-prompts) puede resultarles interesante. 
 
-<details>
-<summary><b>Eso sí...</b></summary>
+Eso sí:
 
 <table>
 <tr>
-<td width=50%>
+<td width=50% valign=top>
 <img src="https://raw.githubusercontent.com/mmasias/ai-prompts/main/documentos/imagenes/spaceStation.png">
-</td><td>
+</td><td width=50% valign=top>
 
 <sub>Este repositorio contiene artículos largos, detallados y que requieren lectura activa.<sub>
 
@@ -202,8 +137,6 @@ Si quieren seguir explorando cosas de AI, el repo de [Pequeñas anécdotas sobre
 </td>
 </tr>
 </table>
-
-</details>
 
 >  
 > **Leer**. Calidad más que cantidad: [Paper](https://arxiv.org/pdf/2602.06176)
